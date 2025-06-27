@@ -1,0 +1,35 @@
+# Bỏ môi trường ảo
+env/
+venv/
+ENV/
+*.egg-info/
+
+# Bỏ dữ liệu sinh ra
+data/images/
+data/*.txt
+
+# Bỏ cache Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Bỏ file thư viện nặng
+*.dll
+*.lib
+*.so
+*.dylib
+*.pdb
+*.exe
+
+# Bỏ checkpoint hoặc model nặng
+*.pt
+*.pth
+
+# Bỏ file hệ thống hoặc editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# File log ho

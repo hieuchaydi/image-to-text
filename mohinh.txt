@@ -1,0 +1,13 @@
+ocr_project/
+├── data/
+│   ├── images/           # Thư mục chứa ảnh (tự tạo hoặc tải từ VOCR)
+│   └── labels.txt        # Nhãn văn bản
+├── models/
+│   └── crnn.py           # Định nghĩa mô hình CRNN
+├── utils/
+│   ├── dataset.py        # DataLoader cho dữ liệu
+│   └── decode.py         # Giải mã đầu ra CTC
+├── train.py              # Script huấn luyện mô hình
+├── predict.py            # Script dự đoán
+├── app.py                # Giao diện Tkinter
+└── requirements.txt      # Danh sách thư viện
